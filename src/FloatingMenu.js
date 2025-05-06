@@ -21,8 +21,6 @@ export default class FloatingMenu {
         }
     }
 
-    // TODO: 可以補個 id, 防呆只能產一個的問題
-
     _mountModel() {
         this.#container_doc.body.setAttribute(
             'style',
